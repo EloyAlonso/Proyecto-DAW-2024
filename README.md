@@ -1,45 +1,54 @@
-# Proxecto fin de ciclo
+# Proyecto fin de ciclo
 
-- [Proxecto fin de ciclo](#proxecto-fin-de-ciclo)
-  - [Taboleiro do proyecto](#taboleiro-do-proyecto)
-  - [Descrición](#descrición)
-  - [Instalación / Posta en marcha](#instalación--posta-en-marcha)
+- [Proyecto fin de ciclo](#proyecto-fin-de-ciclo)
+  - [Tablero del proyecto](#tablero-del-proyecto)
+  - [Descripción](#descripción)
+  - [Instalación / Puesta en marcha](#instalación--puesta-en-marcha)
   - [Uso](#uso)
-  - [Sobre o autor](#sobre-o-autor)
-  - [Licenza](#licenza)
+  - [Sobre el autor](#sobre-el-autor)
+  - [Licencia](#licencia)
   - [Índice](#índice)
   - [Guía de contribución](#guía-de-contribución)
-  - [Links](#links)
+  - [Enlaces](#enlaces)
 
-> *EXPLICACIÓN*: Este documento será a "*páxina de aterrizaxe*" do teu proxecto. Será ou primeiro que vexan vos que se interesen por el. Cúida a sua redacción con todo ou mimo. Elimina posteriormente todas as lineas "EXPLICACIÓN*" cando creas finalizada a súa redacción.
-> Podes acompañar á redacción deste ficheiro con imaxes ou gifs, pero non abuses deles.
+> *EXPLICACIÓN*: Este documento será la "*página de inicio*" de tu proyecto. Será lo primero que vean aquellos que estén interesados en él. Cuida su redacción con todo el cuidado. Elimina posteriormente todas las líneas "EXPLICACIÓN*" cuando consideres finalizada su redacción.
+> Puedes acompañar la redacción de este archivo con imágenes o gifs, pero no abuses de ellos.
 
-## Taboleiro do proyecto
+## Tablero del proyecto
 
-> *EXPLICACIÓN:* neste punto indica se o proyecto está en fase de desenrolo ou finalizado.
+| Estado del Proyecto |
+|---------------------|
+| En fase de desarrollo |
 
-## Descrición
+## Descripción
 
-> *EXPLICACIÓN*: Realiza unha breve descrición do proxecto. Non menos de 100 palabras e non máis de 300. Resalta o fundamental *coas túas propias palabras**. Utiliza unha linguaxe correcta, *pero natural**, que o entenda todo o mundo, mesmo e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estracto ou resumo de apartados que xa contemples noutros ficheiros.
-> Descrición básica das ferramentas/tecnoloxías/linguaxes de programación,... empregados.
+El proyecto consiste en crear una plataforma de comercio online para la venta directa de productos agrícolas en España. Nuestro objetivo principal es proporcionar a los agricultores un espacio donde puedan vender sus productos sin intermediarios, obteniendo precios justos por sus cosechas. Los usuarios podrán comprar directamente a los productores, lo que reducirá los costos de intermediación y garantizará la frescura de los productos. La plataforma estará desarrollada en CakePHP, utilizando Bootstrap, JS, HTML y CSS para asegurar su funcionalidad y una interfaz accesible. Con esta plataforma, buscamos promover la agricultura local y apoyar a los agricultores en su negocio.
 
-## Instalación / Posta en marcha
+## Instalación / Puesta en marcha
 
-> *EXPLICACIÓN*: Neste apartado describe con toda precisión e a poder ser coa maior simplicidade/facilidade posible, como poñer en marcha a túa aplicación para probala (nun ambiente local). Valorarase moi positivamente que este proceso sexa o máis fácil posible, cunha simple instrución (p. e. un script de instalación, descarga e posta en marcha dun contedor,...).
->
+> *EXPLICACIÓN*: En este apartado describe con toda precisión y preferiblemente con la mayor simplicidad/facilidad posible, cómo poner en marcha tu aplicación para probarla (en un entorno local). Se valorará muy positivamente que este proceso sea lo más fácil posible, con una simple instrucción (p. ej. un script de instalación, descarga y puesta en marcha de un contenedor,...).
+
+En un futuro próximo.
 
 ## Uso
 
-> *EXPLICACIÓN*: É este apartado describe brevemente como se usará a aplicación Web do proxecto. Describe o uso da interface web *só o uso** (a modo de sumario) *dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, coma se fose un anuncio reclamo ou comercial).
->
+La aplicación web del proyecto permite a los usuarios registrarse, buscar productos agrícolas, agregarlos al carrito de compras y realizar pagos seguros. Los agricultores pueden crear y administrar sus tiendas, agregar productos y gestionar pedidos. Los usuarios también pueden dejar reseñas y calificaciones para los productos. La interfaz es intuitiva y fácil de usar, con un diseño moderno y responsive que se adapta a diferentes dispositivos. ¡Descubre la frescura de los productos agrícolas locales y apoya a los agricultores directamente desde tu hogar!
 
-## Sobre o autor
 
-> *EXPLICACIÓN*: Realiza unha breve descrición de quen es (perfil profesional), os teus puntos fortes, ou tecnoloxías que máis dominas... a motivación do proxecto, tendo sobre todo en conta un nicho de mercado sen explotar.. *Non máis de 200 palabras**. Indica a forma fiable de contactar contigo durante o proceso de creación do proxecto.
+## Sobre el autor
 
-## Licenza
+Soy un desarrollador web full stack con amplia experiencia en el desarrollo de aplicaciones web. Mi pasión por la tecnología y mi habilidad para resolver problemas me han llevado a especializarme en el desarrollo de plataformas de comercio online. 
 
-> *EXPLICACIÓN*: É requisito INDISPENSABLE o licenciar explicitamente o proxecto software. Recoméndase licenciar con GNU Free Documentation License Version 1.3*. Crear un ficheiro `LICENSE` na raiz do repo, co teu ficheiro de licenza. Lembra que se empregas unha licenza de software libre estás a autorizar a derivación da túa obra baixo a mesma licenza que elixas, podendo dar continuidade, p. e. outro alumno, para continuar o teu proxecto noutro curso.
+Mi objetivo principal con este proyecto es aprovechar un nicho de mercado sin explotar: la venta directa de productos agrícolas. Creo firmemente en apoyar a los agricultores locales y proporcionarles una plataforma donde puedan vender sus productos sin intermediarios. 
+
+Como desarrollador, tengo un sólido dominio de tecnologías como CakePHP, Bootstrap, JS, HTML y CSS. Estas herramientas me permiten crear aplicaciones funcionales y con una interfaz accesible para los usuarios. 
+
+Durante el proceso de creación del proyecto, puedes contactarme de manera fiable a través de mi correo electrónico [eloypro12@gmail.com](mailto:eloypro12@gmail.com). Estoy emocionado de trabajar en este proyecto y contribuir al crecimiento de la agricultura local. 
+
+## Licencia
+
+> *EXPLICACIÓN*: Es requisito INDISPENSABLE licenciar explícitamente el proyecto software. Se recomienda licenciar con GNU Free Documentation License Version 1.3*. Crea un archivo `LICENSE` en la raíz del repositorio, con tu archivo de licencia. Recuerda que si utilizas una licencia de software libre estás autorizando la derivación de tu obra bajo la misma licencia que elijas, pudiendo dar continuidad, p. ej. otro alumno, para continuar tu proyecto en otro curso.
+
 
 ## Índice
 

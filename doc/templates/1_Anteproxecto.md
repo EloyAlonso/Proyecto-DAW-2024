@@ -67,18 +67,18 @@ Al ser una sociedad limitada, las siguientes inversiones serán necesarias:
     - Certificado SSL: Recomendado para asegurar la página, costando alrededor de 50 EUR/año.
 
 - Desarrollo y mantenimiento:
-    - Desarrollo de la plataforma: Dado que planeas desarrollarlo tú mismo, no tendrías que contar con los gastos de contratar a un programador. Sin embargo, para el mantenimiento y posibles actualizaciones futuras, podrías necesitar un presupuesto anual de 2,000 EUR.
+    - Desarrollo de la plataforma: Dado que planeo desarrollarlo yo mismo, no tendría que contar con los gastos de contratar a un programador. Sin embargo, para el mantenimiento y posibles actualizaciones futuras, podrías necesitar un presupuesto anual de 2,000 EUR.
 
 - Marketing:
-    - Para dar a conocer el marketplace entre agricultores y consumidores, necesitarás invertir en publicidad digital. Un presupuesto inicial de marketing de 500 EUR sería razonable para campañas de redes sociales y SEO.
+    - Para dar a conocer el marketplace entre agricultores y consumidores, se necesitará invertir en publicidad digital. Un presupuesto inicial de marketing de 500 EUR sería razonable para campañas de redes sociales y SEO.
 
 #### 2.7.2- Ingresos Estimados
 
-El modelo de ingresos estará basado en una comisión por cada venta realizada a través de la plataforma. Aquí te hago una estimación con números:
+El modelo de ingresos estará basado en una comisión por cada venta realizada a través de la plataforma. Aquí una estimación con números:
 
 - Comisión por producto vendido: Suponemos una comisión del 10% por cada transacción realizada en la plataforma.
 
-- Ventas iniciales estimadas: Para una estimación inicial conservadora, podrías calcular que durante los primeros 6 meses, se realicen unas 300 transacciones mensuales, con un precio promedio por transacción de 20 EUR.
+- Ventas iniciales estimadas: Para una estimación inicial conservadora, podríase calcular que durante los primeros 6 meses, se realicen unas 300 transacciones mensuales, con un precio promedio por transacción de 20 EUR.
 
 - Ventas mensuales estimadas: 300 transacciones × 20 EUR = 6,000 EUR/mes.
 - Comisión mensual generada (10% de 6,000 EUR): 600 EUR/mes.
