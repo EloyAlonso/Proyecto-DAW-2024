@@ -1,39 +1,39 @@
-# FASE DE DESEÑO
+# FASE DE DISEÑO
 
-- [FASE DE DESEÑO](#fase-de-deseño)
-  - [1- Diagrama da arquitectura](#1--diagrama-da-arquitectura)
+- [FASE DE DISEÑO](#fase-de-diseño)
+  - [1- Diagrama de la arquitectura](#1--diagrama-de-la-arquitectura)
   - [2- Casos de uso](#2--casos-de-uso)
   - [3- Diagrama de Base de Datos](#3--diagrama-de-base-de-datos)
-  - [4- Deseño de interface de usuarios](#4--deseño-de-interface-de-usuarios)
+  - [4- Diseño de interfaz de usuarios](#4--diseño-de-interfaz-de-usuarios)
 
-> *EXPLICACIÓN:* Este documento inclúe os diferentes diagramas, esquemas e deseños que axuden a describir mellor o [nome do proxecto] detallando os seus compoñentes, funcionalidades, bases de datos e interface.
+> *EXPLICACIÓN:* Este documento incluye los diferentes diagramas, esquemas y diseños que ayudan a describir mejor el [nombre del proyecto] detallando sus componentes, funcionalidades, bases de datos e interfaz.
 
-## 1- Diagrama da arquitectura
+## 1- Diagrama de la arquitectura
 
-> *EXPLICACIÓN:* Incluír os diagramas de arquitectura que representen de forma gráfica a aplicación, os seus compoñentes e a súa interrelación: front-end, back-end, bases de datos, nube, microservizos, etc.
+![Diagrama de la Arquitectura](../img/Diagrama-arquitectura.png)
 
 ## 2- Casos de uso
 
-> *EXPLICACIÓN:* Facer os diagramas de casos de uso que representen como as persoas usuarias interaccionan co sistema.
->
->Deben incluírse o(s) tipo(s) de usuario implicados en cada caso de uso.
+![Diagrama de Casos de Uso](../img/DiagramaUso.png)
 
 ## 3- Diagrama de Base de Datos
 
-> *EXPLICACIÓN:* Neste apartado incluiranse os diagramas relacionados coa Base de Datos:
+> *EXPLICACIÓN:* En este apartado se incluirán los diagramas relacionados con la Base de Datos:
 >
-> - Modelo Entidade/relación
+> - Modelo Entidad/relación
 > - Modelo relacional
 >
-> Pódese entregar a captura do phpMyAdmin se se emprega MariaDB como Modelo relacional.
+> Se puede entregar la captura del phpMyAdmin si se emplea MariaDB como Modelo relacional.
 
-## 4- Deseño de interface de usuarios
+![Modelo Entidad/relación](../img/DiagramaER.png)
 
-> *EXPLICACIÓN:* Neste apartado deben incluírse unha mostra representativan dos mockups da aplicación. Estes mockups deben incluír todas as vistas da aplicación, é dicir, todas as páxinas diferentes que unha persoa usuaria (de calquera tipo) vai poder ver. Tamén se debe incluír información de como navegar dunha ventá a outra.
+## 4- Diseño de interfaz de usuarios
+
+> *EXPLICACIÓN:* En este apartado se debe incluir una muestra representativa de los mockups de la aplicación. Estos mockups deben incluir todas las vistas de la aplicación, es decir, todas las páginas diferentes que un usuario (de cualquier tipo) va a poder ver. También se debe incluir información de cómo navegar de una ventana a otra.
 >
-> Os mockups axudan no deseño da aplicación. Poden facerse á man, cunha aplicación ou a través dunha web do estilo: diagrams Un mockup permite ver como se verá unha páxina concreta dunha aplicación web. O deseño de mockups axuda a:
+> Los mockups ayudan en el diseño de la aplicación. Pueden hacerse a mano, con una aplicación o a través de una web del estilo: diagrams Un mockup permite ver cómo se verá una página concreta de una aplicación web. El diseño de mockups ayuda a:
 >
-> - Avanzar moi rápido na parte frontend: ao ter os mockups realizados, permite saber que elementos vai ter cada vista e onde colocalos.
-> - Visualizar a información que vai a ser necesaria mostrar. Sabendo con que información imos traballar e sabendo a información que necesitamos mostrar, podemos organizar os datos dunha forma axeitada para gardalos na base de datos.
+> - Avanzar muy rápido en la parte frontend: al tener los mockups realizados, permite saber qué elementos va a tener cada vista y dónde colocarlos.
+> - Visualizar la información que va a ser necesaria mostrar. Sabiendo con qué información vamos a trabajar y sabiendo la información que necesitamos mostrar, podemos organizar los datos de una forma adecuada para guardarlos en la base de datos.
 >
-> Se temos as ideas máis claras do noso proxecto podemos sustituir os mockups por prototipos.
+> Si tenemos las ideas más claras de nuestro proyecto podemos sustituir los mockups por prototipos.
