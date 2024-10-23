@@ -22,12 +22,10 @@ Este apartado debe describir las operaciones clave que se podrán realizar dentr
 | Alta de productos          | Los agricultores podrán dar de alta sus productos, añadiendo detalles como precio, cantidad y fotos.           |
 | Modificación de productos  | Posibilidad de modificar la información de los productos (descripción, precio, cantidad, etc.).                |
 | Visualización de productos | Los clientes podrán ver los productos a través de la web, organizados por categorías o filtros de búsqueda.    |
-| Carrito de compras         | Los clientes podrán añadir productos a un carrito de compra y proceder con el pago de forma segura.            |
-| Sistema de pagos           | Los clientes podrán realizar pagos en línea a través de tarjetas de crédito/débito o sistemas de pago online.  |
-| Gestión de envíos          | Los agricultores podrán gestionar los envíos de los productos, y los clientes podrán hacer seguimiento.        |
+| Compra de productos        | Los clientes podrán añadir productos a un carrito de compra y proceder con el pago de forma segura.            |
+| Seguimiento del pedido     | Los clientes podrán visualizar el estado de sus pedidos, ya sea en espera o enviado.                           |
 | Historial de pedidos       | Los usuarios podrán ver el historial de productos comprados y el estado de sus pedidos.                        |
 | Sistema de reseñas         | Los compradores podrán dejar reseñas sobre los productos y la experiencia con el agricultor.                   |
-| Panel de control de vendedor | Los agricultores tendrán un panel para gestionar sus ventas, productos y estadísticas.                     |
 
 ### Flujo de datos
 - **Datos de entrada**: Registro de usuarios, alta de productos, actualización de inventarios, datos de pagos.
@@ -40,18 +38,17 @@ Se identificarán varios tipos de usuarios que interactuarán con la plataforma,
 1. **Usuario anónimo**: Puede navegar por la plataforma y ver los productos, pero necesita registrarse para comprar.
 2. **Cliente registrado**: Puede comprar productos, dejar reseñas y ver su historial de pedidos.
 3. **Agricultor**: Puede gestionar su tienda, agregar y modificar productos, gestionar pedidos y pagos, y acceder a estadísticas de ventas.
-4. **Administrador**: Tendrá acceso completo para gestionar la plataforma, como la gestión de usuarios, productos y contenido. También gestionará los pagos y las políticas de la plataforma.
+4. **Administrador**: Tendrá acceso completo para gestionar la plataforma, como la gestión de usuarios, productos y contenido. También verificará los pedidos en caso de algún problema y las políticas de la plataforma.
 
 ## 4- Entorno operacional
 
 Para poder operar con la aplicación web, los **usuarios** necesitarán los siguientes recursos:
 
-1. **Navegador web actualizado**: La plataforma será accesible desde cualquier navegador moderno como Google Chrome, Mozilla Firefox, Safari o Microsoft Edge.
+1. **Navegador web actualizado**: La plataforma será accesible desde cualquier navegador que soporte HTML5, CSS y JavaScript como Google Chrome, Mozilla Firefox, Safari o Microsoft Edge.
 2. **Conexión a internet**: Necesaria para poder acceder al sitio y realizar transacciones.
 3. **Dispositivos compatibles**:
    - **PC**: Para la gestión completa de los agricultores y administradores.
    - **Smartphones y tablets**: La plataforma será responsiva, por lo que los usuarios podrán comprar desde cualquier dispositivo móvil.
-4. **Certificación SSL**: La plataforma deberá contar con un certificado SSL para asegurar las transacciones y proteger la información sensible.
 
 ## 5- Normativa
 
@@ -62,8 +59,11 @@ El proyecto debe cumplir con las normativas legales vigentes, sobre todo porque 
 2. **General Data Protection Regulation (GDPR)**: Si la plataforma expande su operación a nivel europeo, también deberá cumplir con el GDPR, que regula el tratamiento de datos personales dentro de la UE.
 
 3. **Aviso legal, Política de privacidad y Política de cookies**:
-   - Debe haber una sección clara en el sitio web que informe a los usuarios sobre cómo se recopilan, almacenan y usan sus datos.
-   - El aviso legal deberá identificar claramente quién es la persona o entidad responsable del tratamiento de los datos y describir el propósito de la recolección de datos.
+   - **Responsable del tratamiento de datos**: La entidad responsable del tratamiento de los datos personales es la empresa responsable.
+   - **Información personal recopilada**: Recopilamos información como nombre y dirección de correo electrónico.
+   - **Propósito de la recolección de datos**: Utilizamos los datos personales para gestionar las cuentas de usuario, procesar pedidos, mejorar nuestros servicios, y enviar comunicaciones relacionadas con la plataforma.
+   - **Derechos de privacidad**: Los usuarios tienen derecho a la rectificación, desistimiento y anulación de sus datos personales.
+   - **Solicitud de derechos**: Los usuarios pueden ejercer sus derechos enviando una solicitud por correo ordinario a la sede de la empresa o completando un formulario disponible en nuestro sitio web.
 
 4. **Comercio electrónico**: Cumplimiento de las leyes relacionadas con las transacciones electrónicas y el comercio a distancia en España, garantizando la transparencia en los términos y condiciones de uso, el derecho de devolución y protección del consumidor.
 
