@@ -60,7 +60,7 @@ El proyecto debe cumplir con las normativas legales vigentes, sobre todo porque 
 
 3. **Aviso legal, Política de privacidad y Política de cookies**:
    - **Responsable del tratamiento de datos**: La entidad responsable del tratamiento de los datos personales es la empresa responsable.
-   - **Información personal recopilada**: Recopilamos información como nombre y dirección de correo electrónico.
+   - **Información personal recopilada**: Recopilamos información como nombre, correo electrónico, dirección y número telefónico.
    - **Propósito de la recolección de datos**: Utilizamos los datos personales para gestionar las cuentas de usuario, procesar pedidos, mejorar nuestros servicios, y enviar comunicaciones relacionadas con la plataforma.
    - **Derechos de privacidad**: Los usuarios tienen derecho a la rectificación, desistimiento y anulación de sus datos personales.
    - **Solicitud de derechos**: Los usuarios pueden ejercer sus derechos enviando una solicitud por correo ordinario a la sede de la empresa o completando un formulario disponible en nuestro sitio web.
