@@ -25,6 +25,7 @@
 >
 > Se puede entregar la captura del phpMyAdmin si se emplea MariaDB como Modelo relacional.
 
+La base de datos no es definitiva, surgirán cambios según necesidades en el desarrollo.
 ![Modelo Entidad/relación](../img/DiagramaER.png)
 
 ## 4- Diseño de interfaz de usuarios
@@ -37,3 +38,5 @@
 > - Visualizar la información que va a ser necesaria mostrar. Sabiendo con qué información vamos a trabajar y sabiendo la información que necesitamos mostrar, podemos organizar los datos de una forma adecuada para guardarlos en la base de datos.
 >
 > Si tenemos las ideas más claras de nuestro proyecto podemos sustituir los mockups por prototipos.
+
+El prototipo figma está subido en la carpeta prototipos pero no es definitivo.
