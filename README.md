@@ -18,7 +18,7 @@
 
 | Estado del Proyecto |
 |---------------------|
-| En fase de desarrollo |
+| Proyecto en versión estable |
 
 ## Descripción
 
@@ -145,7 +145,7 @@ Al utilizar este software, aceptas los términos de la Licencia Pública General
 
 #### 3. **Funcionalidades avanzadas de búsqueda**
 - Añadir filtros de búsqueda más detallados como:
-  - Categorías de productos.
+  - Categorías de productos avanzado.
   - Proximidad geográfica.
   - Rango de precios.
 - Optimizar la base de datos para consultas rápidas.

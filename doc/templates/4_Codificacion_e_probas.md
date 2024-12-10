@@ -64,3 +64,17 @@ Estos problemas se resolvieron corrigiendo errores en el código ("despistes") q
 En algunos casos, los valores nulos de ciertas variables corrompían la solicitud.
 Estos problemas se resolvieron manejando los errores de estas variables.
 
+### Pruebas en Diferentes Entornos
+
+Se ha probado a lanzar la página desde Windows y WSL (Windows Subsystem for Linux). Durante estas pruebas, se encontraron problemas relacionados con la configuración del entorno y las dependencias necesarias para ejecutar la aplicación.
+
+#### Problemas Encontrados
+
+1. **Configuración de Entorno**: En Windows, hubo problemas con la configuración de las variables de entorno necesarias para ejecutar la aplicación correctamente. En WSL, algunos paquetes no se instalaban correctamente debido a diferencias en la gestión de dependencias entre Windows y Linux.
+
+2. **Dependencias**: Algunas dependencias de la aplicación no eran compatibles entre Windows y WSL, lo que causaba errores al intentar lanzar la aplicación.
+
+#### Solución
+
+Para resolver estos problemas, se creó un script que automatiza la configuración del entorno y la instalación de dependencias necesarias para cada sistemas operativo. Estos scripts aseguran que la aplicación se despliegue sin problemas tanto en Windows como en WSL.
+
