@@ -1,0 +1,47 @@
+# Licencia del Proyecto
+
+Este software está licenciado bajo la Licencia Pública General de GNU, versión 3.0 (GPL-3.0).  
+Para más detalles sobre los términos de la GPL-3.0, consulta el archivo completo de la licencia en el siguiente enlace:  
+[https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
+
+## Notas sobre bibliotecas de terceros
+
+Este proyecto utiliza las siguientes bibliotecas de terceros, que están sujetas a sus respectivas licencias:  
+
+1. **Bootstrap**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/twbs/bootstrap/blob/main/LICENSE](https://github.com/twbs/bootstrap/blob/main/LICENSE)  
+
+2. **jQuery**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/jquery/jquery/blob/main/LICENSE.txt](https://github.com/jquery/jquery/blob/main/LICENSE.txt)  
+
+3. **Leaflet**  
+   - Licencia: [BSD de 2 cláusulas](https://opensource.org/licenses/BSD-2-Clause)  
+   - Más información: [https://github.com/Leaflet/Leaflet/blob/main/LICENSE](https://github.com/Leaflet/Leaflet/blob/main/LICENSE)  
+
+4. **CakePHP**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/cakephp/cakephp/blob/5.x/LICENSE](https://github.com/cakephp/cakephp/blob/5.x/LICENSE)  
+
+5. **JsBarcode**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/lindell/JsBarcode/blob/master/MIT-LICENSE.txt](https://github.com/lindell/JsBarcode/blob/master/MIT-LICENSE.txt)  
+
+6. **SweetAlert**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://sweetalert.js.org/guides/](https://sweetalert.js.org/guides/)  
+
+---
+
+## Permisos y restricciones
+
+Al utilizar este software, aceptas los términos de la Licencia Pública General de GNU (GPL-3.0) y las licencias de los componentes de terceros mencionados anteriormente.  
+
+- Este proyecto puede ser modificado, distribuido y utilizado libremente siempre que se cumplan los términos de la GPL-3.0 y las licencias de las bibliotecas de terceros.  
+- Las obras derivadas deben ser distribuidas bajo la misma licencia (GPL-3.0).  
+- Asegúrate de leer y entender las licencias de cada biblioteca para cumplir con sus términos específicos.  
+
+---
+
+© [Eloy Alonso Martínez], [2024]. Todos los derechos reservados.
