@@ -26,9 +26,26 @@ El proyecto consiste en crear una plataforma de comercio online para la venta di
 
 ## Instalación / Puesta en marcha
 
-> *EXPLICACIÓN*: En este apartado describe con toda precisión y preferiblemente con la mayor simplicidad/facilidad posible, cómo poner en marcha tu aplicación para probarla (en un entorno local). Se valorará muy positivamente que este proceso sea lo más fácil posible, con una simple instrucción (p. ej. un script de instalación, descarga y puesta en marcha de un contenedor,...).
+Para el despliegue de la web se puede optar por 2 diferentes formas: Desde Windows o desde Linux (o WSL).
 
-En un futuro próximo.
+Yo personalmente despliego el proyecto desde WSL (Windows Subsystem for Linux) donde meto el repositorio de la web en mi distro ya configurada con Docker ya instalado internamente.
+Recomiendo ver este vídeo tutorial si quieres instalar Docker dentro de WSL en vez de usar Docker Desktop ya que ralentizará mucho la página:
+[Instalar Docker en WSL](https://www.youtube.com/watch?v=cv7Iyohhmo4)
+
+En el caso de que quieras tener el repositorio en el sistema operativo Windows simplemente tienes que descargar Docker Desktop, pero la carga de la página será mucho más lenta.
+
+Para el despliegue hay 2 scripts dependiendo del sistema operativo desde el que se quiera lanzar: build.sh (para Linux y WSL) y windows.ps1
+
+Tan solo hay que ejecutarlos y en unos minutos estará desplegada la web con su base de datos importada y funcionando.
+
+Tener en cuenta que a lo mejor build.sh no tiene permisos para ser ejecutable así que en caso de que no se pueda ejecutar hay que darle permisos de ejecución "chmod +x ./build.sh"
+
+Y en cuanto al script de Windows puede suceder que PowerShell no tenga habilitada la ejecución de scripts así que recomiendo usar este comando: 
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Si se creó un archivo llamado "loaded" y se necesita redesplegar de 0 se recomienda borrar ese archivo
 
 ## Uso
 
@@ -47,8 +64,53 @@ Durante el proceso de creación del proyecto, puedes contactarme de manera fiabl
 
 ## Licencia
 
-> *EXPLICACIÓN*: Es requisito INDISPENSABLE licenciar explícitamente el proyecto software. Se recomienda licenciar con GNU Free Documentation License Version 1.3*. Crea un archivo `LICENSE` en la raíz del repositorio, con tu archivo de licencia. Recuerda que si utilizas una licencia de software libre estás autorizando la derivación de tu obra bajo la misma licencia que elijas, pudiendo dar continuidad, p. ej. otro alumno, para continuar tu proyecto en otro curso.
+### Licencia del Proyecto
 
+Este software está licenciado bajo la Licencia Pública General de GNU, versión 3.0 (GPL-3.0).  
+Para más detalles sobre los términos de la GPL-3.0, consulta el archivo completo de la licencia en el siguiente enlace:  
+[https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
+
+### Notas sobre bibliotecas de terceros
+
+Este proyecto utiliza las siguientes bibliotecas de terceros, que están sujetas a sus respectivas licencias:  
+
+1. **Bootstrap**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/twbs/bootstrap/blob/main/LICENSE](https://github.com/twbs/bootstrap/blob/main/LICENSE)  
+
+2. **jQuery**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/jquery/jquery/blob/main/LICENSE.txt](https://github.com/jquery/jquery/blob/main/LICENSE.txt)  
+
+3. **Leaflet**  
+   - Licencia: [BSD de 2 cláusulas](https://opensource.org/licenses/BSD-2-Clause)  
+   - Más información: [https://github.com/Leaflet/Leaflet/blob/main/LICENSE](https://github.com/Leaflet/Leaflet/blob/main/LICENSE)  
+
+4. **CakePHP**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/cakephp/cakephp/blob/5.x/LICENSE](https://github.com/cakephp/cakephp/blob/5.x/LICENSE)  
+
+5. **JsBarcode**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://github.com/lindell/JsBarcode/blob/master/MIT-LICENSE.txt](https://github.com/lindell/JsBarcode/blob/master/MIT-LICENSE.txt)  
+
+6. **SweetAlert**  
+   - Licencia: [MIT](https://opensource.org/licenses/MIT)  
+   - Más información: [https://sweetalert.js.org/guides/](https://sweetalert.js.org/guides/)  
+
+---
+
+### Permisos y restricciones
+
+Al utilizar este software, aceptas los términos de la Licencia Pública General de GNU (GPL-3.0) y las licencias de los componentes de terceros mencionados anteriormente.  
+
+- Este proyecto puede ser modificado, distribuido y utilizado libremente siempre que se cumplan los términos de la GPL-3.0 y las licencias de las bibliotecas de terceros.  
+- Las obras derivadas deben ser distribuidas bajo la misma licencia (GPL-3.0).  
+- Asegúrate de leer y entender las licencias de cada biblioteca para cumplir con sus términos específicos.  
+
+---
+
+© [Eloy Alonso Martínez], [2024]. Todos los derechos reservados.
 
 ## Índice
 
@@ -64,8 +126,83 @@ Durante el proceso de creación del proyecto, puedes contactarme de manera fiabl
 
 ## Guía de contribución
 
-> EXPLICACIÓN*: Tratándose dun proxecto de software libre, é moi importante que expoñas como se pode contribuír co teu proxecto. Algúns exemplos disto son realizar novas funcionalidades, corrección e/o optimización do código, realización de tests automatizados, novas interfaces de integración, desenvolvemento de plugins etc. Se o máis conciso que poidas.
+### Cómo empezar
+
+1. Clona el repositorio desde [GitHub](https://github.com/EloyAlonso/AgroDirecto)
+2. Configura tu entorno local siguiendo las instrucciones en este archivo `README.md`.
+3. Asegúrate de instalar las dependencias necesarias.
+
+### Áreas donde puedes contribuir
+
+#### 1. **Chat entre usuarios y vendedores**
+- Implementar un sistema de mensajería en tiempo real que permita a los usuarios comunicarse con los vendedores. Esto mejorará la gestión de pedidos, resolución de dudas y negociación de precios.
+- Requiere trabajar con **WebSockets** o APIs en tiempo real.
+
+#### 2. **Mejoras estéticas**
+- Rediseñar la interfaz de usuario para hacerla más atractiva y moderna.
+- Propuestas de mejora de la experiencia visual (usabilidad, accesibilidad, etc.).
+- Utilizar frameworks como **Bootstrap** para facilitar el diseño.
+
+#### 3. **Funcionalidades avanzadas de búsqueda**
+- Añadir filtros de búsqueda más detallados como:
+  - Categorías de productos.
+  - Proximidad geográfica.
+  - Rango de precios.
+- Optimizar la base de datos para consultas rápidas.
+
+#### 4. **Sistema de notificaciones**
+- Implementar notificaciones en tiempo real para informar a los usuarios sobre:
+  - Cambios en el estado de sus pedidos.
+  - Nuevos productos disponibles.
+  - Ofertas y promociones.
+- Usar servicios como **Firebase** o sistemas de notificaciones push.
+
+#### 5. **Integración con redes sociales**
+- Facilitar el registro y acceso a la plataforma mediante cuentas de redes sociales como:
+  - Facebook.
+  - Google.
+  - Twitter.
+- Implementar opciones para compartir productos y ofertas en redes sociales.
+
+#### 6. **Programa de fidelización**
+- Crear un sistema de puntos o recompensas para incentivar la compra recurrente y la lealtad de los usuarios.
+- Desarrollar funcionalidades como:
+  - Canjear puntos por descuentos.
+  - Niveles de membresía según las compras realizadas.
+
+#### 7. **Soporte multilingüe**
+- Añadir soporte para múltiples idiomas:
+  - Español, inglés y otros idiomas según la región.
+  - Implementar traducciones en archivos específicos para facilitar la internacionalización.
+
+#### 8. **Análisis de datos y reportes**
+- Proveer a los vendedores con herramientas de análisis de datos sobre:
+  - Ventas realizadas.
+  - Productos más populares.
+  - Comportamiento de los clientes.
+- Integrar gráficos y reportes dinámicos usando **Chart.js** o bibliotecas similares.
+
+---
+
+### Cómo contribuir
+
+1. **Crea un fork del repositorio** y trabaja en una rama específica para tus cambios.
+2. **Haz tus cambios y realiza commits descriptivos**.
+3. **Envía un pull request (PR)**:
+- Explica claramente los cambios realizados.
+- Incluye capturas de pantalla o GIFs si es necesario.
+
+---
+
+¡Gracias por colaborar en AgroDirecto y ayudar a construir una mejor plataforma!
+
 
 ## Links
 
 > EXPLICACIÓN*: Ligazóns externas e descipciones destas ligazóns que creas conveniente indicar aquí. Xeralmente xa van estar integrados coa túa documentación, pero se requires realizar unha listaxe deles, leste é o lugar.
+
+- [AgroDirecto en Producción](https://agrodirecto.serveblog.net/) - Página web principal del proyecto.
+- [Repositorio de Código Fuente](https://github.com/EloyAlonso/AgroDirecto) - Código fuente del proyecto en GitHub.
+- [Documentación de CakePHP](https://book.cakephp.org/) - Documentación oficial del framework utilizado.
+- [Documentación de Leaflet](https://leafletjs.com/reference.html) - Referencia para trabajar con mapas en el proyecto.
+- [Documentación de Bootstrap](https://getbootstrap.com/docs/) - Documentación del framework de diseño.

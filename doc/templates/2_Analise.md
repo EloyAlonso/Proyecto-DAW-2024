@@ -23,8 +23,7 @@ Este apartado debe describir las operaciones clave que se podrán realizar dentr
 | Modificación de productos  | Posibilidad de modificar la información de los productos (descripción, precio, cantidad, etc.).                |
 | Visualización de productos | Los clientes podrán ver los productos a través de la web, organizados por categorías o filtros de búsqueda.    |
 | Compra de productos        | Los clientes podrán añadir productos a un carrito de compra y proceder con el pago de forma segura.            |
-| Seguimiento del pedido     | Los clientes podrán visualizar el estado de sus pedidos, ya sea en espera o enviado.                           |
-| Historial de pedidos       | Los usuarios podrán ver el historial de productos comprados y el estado de sus pedidos.                        |
+| Seguimiento y historial de pedidos | Los clientes podrán visualizar el estado de sus pedidos (en espera o enviado) y ver el historial de productos comprados. |
 | Sistema de reseñas         | Los compradores podrán dejar reseñas sobre los productos y la experiencia con el agricultor.                   |
 
 ### Flujo de datos
@@ -37,8 +36,8 @@ Se identificarán varios tipos de usuarios que interactuarán con la plataforma,
 
 1. **Usuario anónimo**: Puede navegar por la plataforma y ver los productos, pero necesita registrarse para comprar.
 2. **Cliente registrado**: Puede comprar productos, dejar reseñas y ver su historial de pedidos.
-3. **Agricultor**: Puede gestionar su tienda, agregar y modificar productos, gestionar pedidos y pagos, y acceder a estadísticas de ventas.
-4. **Administrador**: Tendrá acceso completo para gestionar la plataforma, como la gestión de usuarios, productos y contenido. También verificará los pedidos en caso de algún problema y las políticas de la plataforma.
+3. **Agricultor**: Puede gestionar su tienda, agregar y modificar productos, gestionar pedidos y pagos.
+4. **Administrador**: Tendrá acceso completo para gestionar la plataforma, como la gestión de usuarios, productos y contenido.
 
 ## 4- Entorno operacional
 
