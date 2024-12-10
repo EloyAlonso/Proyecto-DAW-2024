@@ -111,8 +111,6 @@ Al utilizar este software, aceptas los términos de la Licencia Pública General
 
 ## Índice
 
-> *EXPLICACIÓN*: Simplemente indexa ordenadamente todo o tey proxecto.
-
 1. [Anteproyecto](doc/templates/1_Anteproxecto.md)
 2. [Análise](doc/templates/2_Analise.md)
 3. [Deseño](doc/templates/3_Deseño.md)
@@ -196,7 +194,6 @@ Al utilizar este software, aceptas los términos de la Licencia Pública General
 
 ## Links
 
-> EXPLICACIÓN*: Ligazóns externas e descipciones destas ligazóns que creas conveniente indicar aquí. Xeralmente xa van estar integrados coa túa documentación, pero se requires realizar unha listaxe deles, leste é o lugar.
 
 - [AgroDirecto en Producción](https://agrodirecto.serveblog.net/) - Página web principal del proyecto.
 - [Repositorio de Código Fuente](https://github.com/EloyAlonso/AgroDirecto) - Código fuente del proyecto en GitHub.
