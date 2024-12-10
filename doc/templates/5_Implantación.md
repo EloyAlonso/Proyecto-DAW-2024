@@ -11,16 +11,6 @@
 
 ### 1.1- Instalación
 
-> *EXPLICACIÓN:* En este apartado se describirán todos los pasos necesarios para que cualquier persona pueda descargar el código del proyecto y continuar su desarrollo.
->
-> Como:
-> 
-> - Requisitos de hardware, servidores en la nube, etc.
-> - Software necesario: servidores (Ejemplo servidor Web), software externo con el que interactúa nuestra aplicación, contenedores, etc.
-> - Carga inicial de datos en la base de datos. Migración de datos ya existentes en otros formatos.
-> - Usuarios de la aplicación.
-> - Diagrama final de despliegue (si hay variaciones con respecto a lo realizado en la fase anterior).
-
 Para el despliegue de la web se puede optar por 2 diferentes formas: Desde Windows o desde Linux (o WSL).
 
 Yo personalmente despliego el proyecto desde WSL (Windows Subsystem for Linux) donde meto el repositorio de la web en mi distro ya configurada con Docker ya instalado internamente.
@@ -43,18 +33,6 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ### 1.2- Administración del sistema
 
-> *EXPLICACIÓN:* En este apartado se indicará información relativa a la administración del sistema, es decir, tareas que se deberán realizar una vez que el sistema esté funcionando.
->
-> Como:
-> 
-> - Copias de seguridad del sistema.
-> - Copias de seguridad de la base de datos.
-> - Gestión de usuarios.
-> - Gestión de seguridad.
-> - Gestión de incidencias, que pueden ser de dos tipos: de sistema (accesos no autorizados a la BD, etc.) o de fallos en el software.
->
-> En caso de que sean necesarias.
-
 El script hace ya todo. No hace falta implementar nada, pero en caso de algún posible fallo revisar la importación de la base de datos:
 
 Revisar que en app/config/.env los datos de DATABASE_URL sean las credenciales correctas, se puede corroborar con app/config/env.example y compose.yml donde está usuario, contraseña contenedor de BD, etc.
@@ -62,12 +40,6 @@ Revisar que en app/config/.env los datos de DATABASE_URL sean las credenciales c
 Una vez asegurado que va acudiremos al adminer con el puerto 8080, donde podemos iniciar sesion con estas credenciales y acceder a la base de datos para importar el archivo sql de la base de datos (agrodirecto.sql).
 
 ## 2- Manual de usuario
-
-> *EXPLICACIÓN:* En este apartado se indicará si será necesario formar a los usuarios. En caso afirmativo, planificar.
->
-> - Manual de usuario, FAQ u otro método que sea el más adecuado para que los usuarios sepan usar nuestra aplicación informática.
->
-> Todo esto si la aplicación requiere de manual de usuario.
 
 A continuación, se describen las principales funcionalidades para un usuario:
 
@@ -88,8 +60,6 @@ Estas funcionalidades permiten a los vendedores administrar eficientemente sus p
 
 
 ## 3- Mejoras futuras
-
-> *EXPLICACIÓN:* En este apartado se incluirán las posibilidades de mejora de la aplicación en el futuro.
 
 - **Chat entre usuarios y vendedores**: Implementar un sistema de mensajería en tiempo real para que los usuarios puedan comunicarse directamente con los vendedores para gestionar pedidos, resolver dudas y negociar precios.
 - **Mejoras estéticas**: Rediseñar la interfaz de usuario para hacerla más atractiva y moderna, mejorando la experiencia visual y la usabilidad.

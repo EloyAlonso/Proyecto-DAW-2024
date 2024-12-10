@@ -11,9 +11,6 @@
   - [Guía de contribución](#guía-de-contribución)
   - [Enlaces](#enlaces)
 
-> *EXPLICACIÓN*: Este documento será la "*página de inicio*" de tu proyecto. Será lo primero que vean aquellos que estén interesados en él. Cuida su redacción con todo el cuidado. Elimina posteriormente todas las líneas "EXPLICACIÓN*" cuando consideres finalizada su redacción.
-> Puedes acompañar la redacción de este archivo con imágenes o gifs, pero no abuses de ellos.
-
 ## Tablero del proyecto
 
 | Estado del Proyecto |

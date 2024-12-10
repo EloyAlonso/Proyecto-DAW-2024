@@ -6,8 +6,6 @@
   - [3- Sitios oficiales del software utilizado](#3--sitios-oficiales-del-software-utilizado)
   - [4- Normas o documentos legales](#4--normas-o-documentos-legales)
 
-> *EXPLICACIÓN:* En este apartado incluirás todas las referencias empleadas: webs, libros, etc. Este anexo debe ir completándose a medida que se desarrolle el proyecto.
-
 ## 1- Sitios web de documentación técnica
 - [CakePHP Documentation](https://book.cakephp.org/)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)

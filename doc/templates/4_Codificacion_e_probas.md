@@ -6,28 +6,14 @@
   - [3- Innovación](#3--innovación)
   - [4- Pruebas](#4--pruebas)
 
-> Este documento explica cómo se debe realizar la fase de codificación y pruebas.
 
 ## 1- Codificación
 
-> Crea una carpeta en tu repositorio y sube el código frecuentemente.
->
-> Mientras se va codificando la aplicación, se irán encontrando problemas y habrá que ir modificando aspectos del diseño. Estos cambios también se deben recoger en la documentación.
+El código está en la carpeta código
 
 ## 2- Prototipos
 
-> A medida que se va codificando se crearán varios prototipos, preferentemente realizados con Figma. Para cada uno indicar una descripción de las funcionalidades implementadas.
->
-> Debes ir incluyendo una muestra representativa de los prototipos de la aplicación.
->
-> Los prototipos ayudan en el diseño de la aplicación. Puedes emplear:
->
-> - [Sketch](https://www.sketch.com/)
-> - [Figma](https://www.figma.com/). Recomendado
-> - [Proto.io](https://proto.io/)
->
-> La mejor opción es emplear Figma ya que esta es una herramienta en línea colaborativa. 
-> **Comparte el prototipo con los profesores por medio de Figma o descarga el archivo local el cual subirás a tu repositorio de GitHub**.
+Subido en la carpeta prototipos.
 
 ## 3- Innovación
 
