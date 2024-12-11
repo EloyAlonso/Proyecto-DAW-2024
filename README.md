@@ -22,27 +22,54 @@
 El proyecto consiste en crear una plataforma de comercio online para la venta directa de productos agrícolas en España. Nuestro objetivo principal es proporcionar a los agricultores un espacio donde puedan vender sus productos sin intermediarios, obteniendo precios justos por sus cosechas. Los usuarios podrán comprar directamente a los productores, lo que reducirá los costos de intermediación y garantizará la frescura de los productos. La plataforma estará desarrollada en CakePHP, utilizando Bootstrap, JS, HTML y CSS para asegurar su funcionalidad y una interfaz accesible. Con esta plataforma, buscamos promover la agricultura local y apoyar a los agricultores en su negocio.
 
 ## Instalación / Puesta en marcha
+Para el despliegue de la web se puede optar por dos diferentes formas: desde Windows o desde Linux (o WSL).
 
-Para el despliegue de la web se puede optar por 2 diferentes formas: Desde Windows o desde Linux (o WSL).
+### Despliegue en Linux (o WSL)
 
-Yo personalmente despliego el proyecto desde WSL (Windows Subsystem for Linux) donde meto el repositorio de la web en mi distro ya configurada con Docker ya instalado internamente.
-Recomiendo ver este vídeo tutorial si quieres instalar Docker dentro de WSL en vez de usar Docker Desktop ya que ralentizará mucho la página:
-[Instalar Docker en WSL](https://www.youtube.com/watch?v=cv7Iyohhmo4)
+Recomendamos desplegar el proyecto desde WSL (Windows Subsystem for Linux), donde se puede clonar el repositorio de la web en una distribución ya configurada con Docker instalado internamente. Para instalar Docker dentro de WSL en lugar de usar Docker Desktop, que puede ralentizar la página, se sugiere ver este vídeo tutorial: [Instalar Docker en WSL](https://www.youtube.com/watch?v=cv7Iyohhmo4).
 
-En el caso de que quieras tener el repositorio en el sistema operativo Windows simplemente tienes que descargar Docker Desktop, pero la carga de la página será mucho más lenta.
+Para el despliegue en Linux o WSL, se debe ejecutar el script `build.sh`. Si el script no tiene permisos de ejecución, se pueden otorgar con el siguiente comando:
+```bash
+sudo chmod +x ./build.sh
+```
 
-Para el despliegue hay 2 scripts dependiendo del sistema operativo desde el que se quiera lanzar: build.sh (para Linux y WSL) y windows.ps1
+### Despliegue en Windows
 
-Tan solo hay que ejecutarlos y en unos minutos estará desplegada la web con su base de datos importada y funcionando.
+En caso de querer tener el repositorio en el sistema operativo Windows, simplemente se debe descargar Docker Desktop. Sin embargo, tenga en cuenta que la carga de la página será más lenta.
 
-Tener en cuenta que a lo mejor build.sh no tiene permisos para ser ejecutable así que en caso de que no se pueda ejecutar hay que darle permisos de ejecución "chmod +x ./build.sh"
-
-Y en cuanto al script de Windows puede suceder que PowerShell no tenga habilitada la ejecución de scripts así que recomiendo usar este comando: 
+Para el despliegue en Windows, se debe ejecutar el script `windows.ps1`. Si PowerShell no tiene habilitada la ejecución de scripts, se recomienda usar el siguiente comando:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-Si se creó un archivo llamado "loaded" y se necesita redesplegar de 0 se recomienda borrar ese archivo
+### Consideraciones adicionales
+
+Si se creó un archivo llamado "loaded" y se necesita redesplegar desde cero, se recomienda borrar ese archivo.
+
+Ambos scripts (`build.sh` para Linux y WSL, y `windows.ps1` para Windows) deben ejecutarse y en unos minutos la web estará desplegada con su base de datos importada y funcionando.
+
+Para acceder a la web una vez todo desplegado en un entorno local se puede acceder a traves de `http://localhost` y al gestor de base de datos (adminer) `http://localhost:8080`.
+
+### Cuenta de adminer para gestionar la base de datos
+
+Para acceder al adminer:  
+Servidor: `db`  
+Usuario: `usuario`  
+Contraseña: `123456`
+
+### Cuenta de usuario para pruebas
+
+Para manejar cuentas de usuario se puede o registrar una nueva cuenta o iniciar sesion de este usuario:
+
+Correo: `john@example.com`
+Contraseña: `123456`
+
+### Cuenta de vendedor para pruebas
+
+Para probar las funcionalidades de la plataforma como vendedor, puedes utilizar la siguiente cuenta de prueba:
+
+Correo: `bob@example.com`  
+Contraseña: `123456`
 
 ## Uso
 
