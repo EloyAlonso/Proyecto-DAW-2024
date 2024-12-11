@@ -11,7 +11,7 @@
 
 ### 1.1- Instalación
 
-Para el despliegue de la web se puede optar por dos diferentes formas: desde Windows o desde Linux (o WSL).
+Para el despliegue de la web en un entorno local se puede optar por dos diferentes formas: desde Windows o desde Linux (o WSL).
 
 ### Despliegue en Linux (o WSL)
 

@@ -22,7 +22,10 @@
 El proyecto consiste en crear una plataforma de comercio online para la venta directa de productos agrícolas en España. Nuestro objetivo principal es proporcionar a los agricultores un espacio donde puedan vender sus productos sin intermediarios, obteniendo precios justos por sus cosechas. Los usuarios podrán comprar directamente a los productores, lo que reducirá los costos de intermediación y garantizará la frescura de los productos. La plataforma estará desarrollada en CakePHP, utilizando Bootstrap, JS, HTML y CSS para asegurar su funcionalidad y una interfaz accesible. Con esta plataforma, buscamos promover la agricultura local y apoyar a los agricultores en su negocio.
 
 ## Instalación / Puesta en marcha
-Para el despliegue de la web se puede optar por dos diferentes formas: desde Windows o desde Linux (o WSL).
+
+La web está desplegada en un servidor: [AgroDirecto](https://agrodirecto.serveblog.net/).
+
+Para el despliegue de la web en un entorno local se puede optar por dos diferentes formas: desde Windows o desde Linux (o WSL).
 
 ### Despliegue en Linux (o WSL)
 
